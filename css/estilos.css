@@ -11,15 +11,19 @@ body{
 
 .Header{
 	vertical-align: top;
+	position: relative;
 }
 
 .Logotipo{
 	display: inline-block;
+	
 }
 
 .Menu{
 	display: inline-block;
 	font-size: 24px;
+	position: absolute;
+	right: 0;
 }
 
 .Menu li{
@@ -54,6 +58,7 @@ body{
 	border: 1px solid #1F313C;
 	margin: 10px;
 	padding: 10px;
+	/*overflow:hidden;*/
 }
 .Guitarras-titulo{
 	font-family: 'Montserrat', sans-serif;
@@ -66,8 +71,12 @@ body{
 
 .Guitarras-derecha{
 	float:right;
+	position: relative;
+	top: -90px;
 }
 
 .Guitarras-izquierda{
 	float:left;
+	position: relative;
+	bottom: -10px;
 }
