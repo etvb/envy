@@ -50,6 +50,11 @@ body{
 .Guitarras{
 	color: #1F313C;
 }
+.Guitarras-article{
+	border: 1px solid #1F313C;
+	margin: 10px;
+	padding: 10px;
+}
 .Guitarras-titulo{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
@@ -57,4 +62,12 @@ body{
 
 .Guitarras-tituloA, .Guitarras-tituloB{
 	font-size: 50px;
+}
+
+.Guitarras-derecha{
+	float:right;
+}
+
+.Guitarras-izquierda{
+	float:left;
 }
