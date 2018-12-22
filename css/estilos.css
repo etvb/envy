@@ -3,8 +3,22 @@ body{
 	font-family: 'Allerta', sans-serif;
 	
 }
+
+.Header{
+	vertical-align: top;
+}
+
+.Logotipo{
+	display: inline-block;
+}
+
 .Menu{
+	display: inline-block;
 	font-size: 24px;
+}
+
+.Menu li{
+	display:inline-block;
 }
 
 .Portada{
