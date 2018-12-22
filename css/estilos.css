@@ -1,3 +1,26 @@
-*{
-	color: blue;
+.Menu{
+	font-size: 24px;
+}
+
+.Portada{
+	background: url('../img/fondo-header.jpg');
+	color: white;
+}
+.Portada-titulo{
+	font-size: 70px;
+
+}
+
+.Portada-slogan{
+	font-size: 24px;
+}
+.Guitarras{
+	color: #1F313C;
+}
+.Guitarras-titulo{
+	font-size: 35px;
+}
+
+.Guitarras-tituloA, .Guitarras-tituloB{
+	font-size: 50px;
 }
