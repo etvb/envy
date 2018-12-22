@@ -4,6 +4,11 @@ body{
 	
 }
 
+.U-contenedor{
+	margin: auto;
+	width:800px;
+}
+
 .Header{
 	vertical-align: top;
 }
@@ -19,20 +24,28 @@ body{
 
 .Menu li{
 	display:inline-block;
+	margin-left: 30px;
 }
 
 .Portada{
 	background: url('../img/fondo-header.jpg');
 	color: white;
+	padding: 20px;
 }
 .Portada-titulo{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
+	margin: 70px 0 0 0;
 
 }
 
 .Portada-slogan{
 	font-size: 24px;
+	margin: 0 0 50px 0;
+}
+
+.Portada button{
+	margin: 0 0 70px 0;
 }
 .Guitarras{
 	color: #1F313C;
