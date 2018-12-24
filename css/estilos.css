@@ -84,5 +84,21 @@ body{
 .Guitarras-izquierda{
 	float:left;
 	position: relative;
-	bottom: -10px;
+	bottom: -20px;
+}
+.Footer{
+	background-color: #273b47; 
+	border: 1px solid red;
+	text-align: left;
+}
+.Footer-contacto img{
+	display: block;
+}
+
+.Footer-contacto a{
+	color: white;
+	text-decoration: none;
+}
+.Footer-contacto strong{
+	display: block;
 }
