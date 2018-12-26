@@ -88,17 +88,63 @@ body{
 }
 .Footer{
 	background-color: #273b47; 
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	text-align: left;
 }
+
+.Footer-contenedor{
+	display:flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.Footer-contacto{
+	display:flex;
+	width:300px;
+	flex-wrap: wrap;
+
+}
+
 .Footer-contacto img{
 	display: block;
 }
 
 .Footer-contacto a{
 	color: white;
+	margin: 0 0 0 1em ;
 	text-decoration: none;
 }
 .Footer-contacto strong{
 	display: block;
+}
+
+.Formulario{
+	color: white;
+	display: flex;
+	width: 400px;
+}
+
+.Formulario label, .sexo, .intereses{
+	margin: 10px 0 5px 0;
+}
+
+.Formulario-col1, .Formulario-col2{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.Formulario-col1{
+	margin-right: 10px;
+}
+
+.Formulario-col2{
+	align-items: flex-start;
+	padding-bottom: 15px;
+}
+
+.intereses label{
+	/*display: flex;*/
+	font-size: 15px;
+	/*margin: 5px;*/
 }
