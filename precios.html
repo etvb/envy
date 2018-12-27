@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+	<meta charset="utf-8">
+	<title>Invy - Precios</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat | Allerta" rel="stylesheet"> <!-- traemos las 2 fuentes desde google -->
+	<link rel="stylesheet" href="css/normalize.css">	
+	<link rel="stylesheet" href="css/estilos.css">	
+</head>
+<body>
+	<header id="header" class="Header U-contenedor"> <!-- HEADER -->
+		<figure class="Logotipo"> <!-- logotipo -->
+			<img src="img/logo.png" alt="logotipo de la empresa" width="186" height="60">
+		</figure>			
+		<nav class="Menu"> <!-- menu -->
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="index.html#guitarras">Guitarras</a>
+				</li>
+				<li>
+					<a href="">Precios</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<footer class="Footer ">
+		<div class="Footer-contenedor U-contenedor">
+			<div class="Footer-contacto">
+				<img src="img/logo.png" alt="logotipo" width="250" height="120">
+				<a href="tel:+573024456678"><strong>Teléfono: </strong><span>3024456678</span> </a>
+				<a href="mailto:etvb66@invie.com"><strong>Email: </strong><span>contacto@invie.com</span></a>
+			</div>
+			<form class="Formulario" action="">
+				<div class="Formulario-col1">
+					<label for="nombre">Nombre</label>
+					<input id="nombre" type="text" name="nombre" required>
+					<label for="email">E-mail</label>
+					<input id="email" type="email" name="email" required>
+					<div class="sexo">
+						<label>
+							<input type="radio" name="sexo" value="mujer" checked>mujer
+						</label>
+						<label>
+							<input type="radio" name="sexo" value="Hombre">hombre
+						</label>	
+					</div>
+
+					<div class="intereses">
+						<label>
+							<input type="checkbox" name="intereses" value="cotizacion" checked>Cotización
+						</label>
+						<label>
+							<input type="checkbox" name="intereses" value="reclamos">Reclamos
+						</label>
+						<label>
+							<input type="checkbox" name="intereses" value="comentarios">Comentarios
+						</label>
+						<label>
+							<input type="checkbox" name="intereses" value="otros">Otros
+						</label>
+					</div>
+				</div>
+					<div class="Formulario-col2">
+						<label for="">Comentaios</label>
+						<textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+						<input type="submit" value="Enviar">
+					</div>
+			</form>
+		</div>
+		<div class="Footer-form">
+			
+		</div>
+	</footer>
+		
+</body>
+</html>
