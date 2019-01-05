@@ -8,6 +8,17 @@ body{
 	margin: auto;
 	width:800px;
 }
+.U-button{
+	background: #fd324e;
+	background: linear-gradient(to left, #fe344e, #ff7250);
+	border: none;
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+	font-size: 1.5em;
+	margin: 10px 0 7px 0;
+	padding: 7px;
+}
 
 .Header{
 	vertical-align: top;
@@ -16,6 +27,7 @@ body{
 
 .Logotipo{
 	display: inline-block;
+	margin-left: 0;
 	
 }
 
@@ -31,10 +43,17 @@ body{
 	margin-left: 30px;
 }
 
+.Menu a{
+	color: white;
+	text-decoration: none;
+
+}
+
 .Portada{
 	background: url('../img/fondo-header.jpg');
+	background-size: cover;
 	color: white;
-	padding: 20px;
+	padding: 20px 20px 70px 20px;
 }
 .Portada-titulo{
 	font-family: 'Montserrat', sans-serif;
@@ -48,14 +67,17 @@ body{
 	margin: 0 0 50px 0;
 }
 
-.Portada button{
+/*.Portada .U-button{
 	background: #fd324e;
+	background: linear-gradient(to left, #fe344e, #ff7250);
 	border: none;
 	border-radius: 8px;
 	color: white;
+	cursor: pointer;
+	font-size: 1.5em;
 	margin: 0 0 70px 0;
 	padding: 7px;
-}
+}*/
 .Guitarras{
 	color: #1F313C;
 }
